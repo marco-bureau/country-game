@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu de devinettes de pays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Devinette de pays</h1>
+        <input type="text" id="guessInput" placeholder="Entrez un pays">
+        <button id="guessButton">Deviner</button>
+        <button id="giveUpButton">Abandonner</button>
+        <div id="feedback"></div>
+        <div id="attemptCount"></div>
+        <table id="guessTable">
+            <thead>
+                <tr>
+                    <th>Pays Essayé</th>
+                    <th>Continent</th>
+                    <th>Première Lettre</th>
+                    <th>Dernière Lettre</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
